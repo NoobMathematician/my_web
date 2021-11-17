@@ -1,0 +1,42 @@
+body {
+background:#BBBDF6;
+height:100%;
+}
+
+.home_page{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.watch {
+width: 800px;
+margin: 30px auto;
+text-align:center;
+}
+
+h1, h2, h3 {
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+#seconds, #tens{
+  font-size:5em;
+}
+#dot{
+  font-size: 2em;
+}
+
+button {
+    border: 0.5px;
+    width: 150px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #323330;
+    color: white;
+    transition: 0.3s ease-in-out;
+}

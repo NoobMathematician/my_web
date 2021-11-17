@@ -1,0 +1,47 @@
+
+body {
+    display: grid;
+    height: 50vh;
+}
+.container {
+    max-width: 400px;
+}
+.home_page{
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+#screen {
+    text-align: right;
+    height: 80px;
+    line-height: 80px;
+    padding: 15px 10px;
+    font-size: 25px;
+}
+
+.inputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.user_input {
+    border: 0.5px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+#clear {
+    background-color: #cb997e;
+    color: white;
+}
+#equal {
+    background-color: #005f73;
+    color: white;
+}
+
+.user_input:hover {
+    background-color: #323330;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
